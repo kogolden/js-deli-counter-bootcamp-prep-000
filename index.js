@@ -16,12 +16,23 @@ function currentLine(line) {
      } else if (line.length >= 1) {
               let string = `The line is currently: `;
               for (let i = 0; i < line.length; i++) {
+<<<<<<< HEAD
                   if (i === line.length - 1) {
+=======
+                  if (line[i] === line.length - 1) {
+>>>>>>> 6c9c52bc56b1acc018c31dbf36a0326794431d15
                       string += (i + 1) + `. ` + line[i]; 
                   } else {
                       string += (i + 1) + `. ` + line[i] + ', ';
               }
+<<<<<<< HEAD
     }
     return string;
   }
 }
+=======
+              return string; 
+    }
+  }
+}
+>>>>>>> 6c9c52bc56b1acc018c31dbf36a0326794431d15
